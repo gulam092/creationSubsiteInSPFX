@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "site-creation-demo-client-side-solution",
+    "id": "0f9d79c1-18f6-470a-99f7-2a67ff009054",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "site-creation-demo description"
+      },
+      "longDescription": {
+        "default": "site-creation-demo description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "site-creation-demo Feature",
+        "description": "The feature that activates elements of the site-creation-demo solution.",
+        "id": "b9efb466-4f48-48bc-95ec-40e0cb9a2428",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/site-creation-demo.sppkg"
+  }
+}
